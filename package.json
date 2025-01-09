@@ -1,0 +1,9 @@
+{
+  "name": "dustcult.net",
+  "scripts": {
+    "dev": "npx @11ty/eleventy --serve"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}
