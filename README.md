@@ -11,7 +11,7 @@ npm run dev
 
 ## deploy
 
-push to main, cloudflare takes care of the rest.
+Push to main triggers `.github/workflows/deploy.yml`, which builds Eleventy and runs `wrangler deploy` against the `dustcult-net` Cloudflare Worker. Worker config: `wrangler.jsonc`. Requires `CLOUDFLARE_API_TOKEN` repo secret.
 
 <3 the northern information movement
 
